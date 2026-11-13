@@ -1,0 +1,13 @@
+interface:
+  display_name: 从生活发现经济学
+  short_description: 从日常观察或跨学科现象中提出经济学问题，比较可能机制，寻找能区分解释的证据
+  default_prompt: 用 $discover-economics 分析：为什么老师让大家提问时教室很安静，下课后却有人排队问？
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
